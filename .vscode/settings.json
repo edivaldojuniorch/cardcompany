@@ -1,0 +1,9 @@
+{
+  "indenticator.showHover": false,
+  "indenticator.inner.color.dark": "#ff0000",
+  "editor.renderIndentGuides": true,
+  "workbench.colorCustomizations": {
+    "editorIndentGuide.activeBackground": "#ffffff22",
+    "editorIndentGuide.background": "#ffffff22",
+  },
+}
