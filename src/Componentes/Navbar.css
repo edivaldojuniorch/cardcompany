@@ -46,7 +46,8 @@
   justify-content: center;
   list-style: none;
   text-align: center;
-  justify-content: start;
+  flex:start;
+  
 }
 
 .nav-item {

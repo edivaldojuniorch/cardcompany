@@ -12,11 +12,11 @@ export const Button = ({ children, type, onClick, buttonStyle, buttonSize, butto
     : STYLES[0];
 
   const checkButtonSize = SIZES.includes(buttonSize)
-    ? buttonStyle
+    ? buttonSize
     : SIZES[0];
 
   const checkButtonColor = COLOR.includes(buttonColor)
-    ? buttonStyle
+    ? buttonColor
     : null;
 
   return (

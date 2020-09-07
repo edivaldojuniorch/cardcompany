@@ -6,4 +6,7 @@
     "editorIndentGuide.activeBackground": "#ffffff22",
     "editorIndentGuide.background": "#ffffff22",
   },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
 }

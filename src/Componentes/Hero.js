@@ -23,26 +23,14 @@ function Hero({
         <div className='container'>
           <div
             className='row home__hero-row'
-            style={{
-              display: 'flex',
-              flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'
-            }}
+            style={{ display: 'flex', flexDirection: imgStart === 'start' ? 'row-reverse' : 'row' }}
           >
             <div className='col'>
               <div className='home__hero-text-wrapper'>
                 <div className='top-line'>{topLine}</div>
-                <h1 className={lightText ? 'heading' : 'heading dark'}>
-                  {headline}
-                </h1>
-                <p
-                  className={
-                    lightTextDesc
-                      ? 'home__hero-subtitle'
-                      : 'home__hero-subtitle dark'
-                  }
-                >
-                  {description}
-                </p>
+                <h1 className={lightText ? 'heading' : 'heading dark'}>{headline}</h1>
+                <p className={lightTextDesc ? 'home__hero-subtitle' : 'home__hero-subtitle dark'} >
+                  {description} </p>
                 <Link to='/sign-up'>
                   <Button buttonSize='btn--wide' buttonColor='blue'>
                     {buttonLabel}
