@@ -56,13 +56,13 @@ const Navbar = () => {
               </li>
 
               <li className="nav-item">
-                <Link to='/' className="nav-links">
+                <Link to='/services' className="nav-links">
                   Services
               </Link>
               </li>
 
               <li className="nav-item">
-                <Link to='/' className="nav-links">
+                <Link to='/products' className="nav-links">
                   Products
               </Link>
               </li>
